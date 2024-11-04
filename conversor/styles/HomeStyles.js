@@ -5,20 +5,20 @@ const HomeStyles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#f5f5f5'
+        ImageBackground:'https://t3.ftcdn.net/jpg/05/00/85/04/360_F_500850425_KGzvN3zMn2Uif4Xa1eQDbV3bqgTNzA4H.jpg' ,
     },
     title: {
-        fontSize: 24,
+        fontSize: 30,
         fontWeight: 'bold',
         marginBottom: 20
     },
     Button: {
         backgroundColor: '#3498db',
-        padding: 10,
+        padding: 25,
         borderRadius: 5,
     },
     ButtonText: {
-        color: '#fff',
+        color: '#000000',
         fontSize: 16,
     },
 });
