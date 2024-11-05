@@ -1,26 +1,37 @@
-import { Button, StyleSheet } from "react-native";
+import HomeScreen from "../screens/HomeScreen";
+import { StyleSheet } from "react-native";
 
 const HomeStyles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        ImageBackground:'https://t3.ftcdn.net/jpg/05/00/85/04/360_F_500850425_KGzvN3zMn2Uif4Xa1eQDbV3bqgTNzA4H.jpg' ,
+    },
+    image: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
     },
     title: {
         fontSize: 30,
         fontWeight: 'bold',
-        marginBottom: 20
+        marginBottom: 20,
+        color: '#FFFFFF',
     },
     Button: {
-        backgroundColor: '#3498db',
-        padding: 25,
-        borderRadius: 5,
+        backgroundColor: '#ffff',
+        padding: 10,
+        width: '80%',
+        borderRadius: 10,
+        marginBottom: 10,
+
     },
     ButtonText: {
         color: '#000000',
         fontSize: 16,
+        textAlign: 'center',
+        fontFamily: 'Garamond'
     },
 });
 
-export default HomeStyles
+export default HomeStyles;
